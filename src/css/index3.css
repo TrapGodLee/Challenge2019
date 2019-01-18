@@ -62,6 +62,10 @@ article{
     padding: 6px;
 }
 
+img {
+    width: 100%;
+}
+
 /*link line*/
 a {
     text-decoration: none;

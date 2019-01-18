@@ -94,13 +94,6 @@ a {
         width:50%;
         float:left;
     }
-
-
-}
-
-
-/*Responsive Navbar*/
-@media all and (min-width:550px) {
     ul{
         background-color: black;
         border-top: 1px solid white;
@@ -113,7 +106,32 @@ a {
     .nav {
         background-color: white;
     }
+
 }
+
+@media all and (min-width:1000px) {
+    article {
+        width:50%;
+        float:left;
+    }
+    ul{
+        background-color: black;
+        border-top: 1px solid white;
+    }
+    li {
+        display:inline-block;
+        border: none;
+    }
+
+    .nav {
+        background-color: white;
+    }
+
+}
+
+
+
+
 
 /*.container {*!*/
 /*!*background-color: #111111;*!*/
